@@ -14,7 +14,7 @@ paths = {
 	less : './app/style/*.less',
 	css : './app/style/*.css',
 	scriptsFolder : './app/script/',
-	scripts : './app/scripts/**/*.js',
+	scripts : ['./app/scripts/**/*.js', '!./app/scripts/**/*Spec.js'],
 	viewsFolder : './app/views/',
 	views : './app/views/*.html',
 	images : './app/assets/*.{png,gif,jpg}',

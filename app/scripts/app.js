@@ -1,6 +1,5 @@
-var app = angular.module('myForm', []);
-
-app.directive('optIn', function(){
+angular.module('myForm', ['ngMocks'])
+.directive('optIn', function(){
 	return {
 		restrict : 'E',
 		transclude : true,
