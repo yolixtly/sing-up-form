@@ -1,0 +1,22 @@
+{
+  "name": "sing-up-form",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "yolixtly <yolixtly_13@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "angular-mocks": "^1.5.7",
+    "bootstrap": "^3.3.6"
+  }
+}
