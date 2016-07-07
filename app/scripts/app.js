@@ -4,6 +4,7 @@ app.directive('optIn', function(){
 	return {
 		restrict : 'E',
 		transclude : true,
-		templateUrl : './app/views/optin-template.html',
-	}
+		templateUrl : '../views/optin-template.html',
+		replace : true
+	};
 });

@@ -1,3 +1,40 @@
 body {
-  background-color: lightblue;
+  background-color: #235363;
+  color: #ffc107;
+}
+.brand-logo {
+  background-image: url('../assets/dog.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10em;
+  height: 15em;
+  float: left;
+}
+header {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  margin-top: 1em;
+}
+button {
+  color: #235363;
+  background: #ffc107;
+  border: none;
+  border-radius: 2em;
+  padding: 0.3em;
+  margin: 0.5em;
+  width: 5em;
+}
+.wrapper {
+  border: 1px solid;
+  width: 35em;
+  margin-top: 3em;
+}
+.wrapper form {
+  margin: 4em 2em  3em 2em;
+}
+.wrapper form ul {
+  list-style: none;
+  text-align: right;
 }
