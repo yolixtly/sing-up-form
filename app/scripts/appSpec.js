@@ -6,7 +6,6 @@ describe('sign up form test', function() {
         html;
 
     beforeEach(module("myForm"));
-    beforeEach(module('optin-template.html'));
     beforeEach(inject(function ($rootScope, $compile) {
 
         html = '<opt-in><div class="brand-logo"></div></opt-in>';
@@ -15,7 +14,6 @@ describe('sign up form test', function() {
         compiled = $compile(html);
         element = compiled(scope);
         scope.$digest();
-
 
     }));
 
